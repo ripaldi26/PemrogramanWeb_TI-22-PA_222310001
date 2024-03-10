@@ -1,0 +1,17 @@
+body {
+    background-color: rgb(232, 224, 224);
+}
+
+.isi {
+    margin-left: 20px;
+    margin-right: 60%;
+    font-size: 25px;
+}
+
+p {
+    font-size: 15px;
+}
+
+img {
+    width: 250px;
+}
