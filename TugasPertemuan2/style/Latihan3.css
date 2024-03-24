@@ -1,0 +1,108 @@
+nav {
+    background-color: blue;
+    color: white;
+    justify-items: center;
+    height: 45px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 40px;
+    font-size: large;
+}
+
+a:hover {
+    background-color: antiquewhite;
+    color: black;
+    padding-bottom: 15.5px;
+    padding-top: 8px;
+
+}
+
+nav img {
+    width: 25px;
+}
+
+section {
+    font-size: xx-large;
+    text-align: center;
+    line-height: 60px;
+    font-family: Arial;
+    background-color: gray;
+}
+
+section p {
+    font-size: 12px;
+    margin-top: 60px;
+}
+
+.satu {
+    float: left;
+    width: 400px;
+    height: 500px;
+    margin-top: 50px;
+    border: 1px solid blue;
+    margin-bottom: 50px;
+    margin-left: 150px;
+}
+
+.satu img {
+    width: 400px;
+}
+
+.satu p {
+    padding: 5px;
+}
+
+.satu a {
+    text-decoration: none;
+    margin-left: 20px;
+    border: 1px solid blue;
+    padding: 0px 25px 48px 25px;
+}
+
+.satu a:hover {
+    background-color: antiquewhite;
+}
+
+.dua {
+    float: right;
+    width: 400px;
+    height: 500px;
+    border: 1px solid blue;
+    margin-top: 50px;
+    margin-right: 150px;
+}
+
+.dua img {
+    width: 400px;
+}
+
+.dua a {
+    text-decoration: none;
+    margin-left: 20px;
+    border: 1px solid blue;
+    padding: 0px 25px 48px 25px;
+}
+
+.dua a:hover {
+    background-color: antiquewhite;
+}
+
+.dua p {
+    margin-bottom: 50px;
+    padding: 5px;
+}
+
+span {
+    margin-left: 230px;
+    font-size: smaller;
+    color: gray;
+}
+
+footer {
+    margin-top: 710px;
+    margin-bottom: 50px;
+    text-align: center;
+}
