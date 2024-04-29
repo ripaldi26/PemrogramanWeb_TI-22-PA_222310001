@@ -1,0 +1,67 @@
+h2 {
+    color: rgb(87, 130, 22);
+    margin-bottom: 90px;
+    margin-top: 50px;
+    margin-left: 60px;
+}
+
+.satu,
+.dua,
+.tiga {
+    padding: 4px;
+}
+
+.satu {
+    width: 300px;
+    float: left;
+    border: 1px solid black;
+    margin-left: 50px;
+}
+
+.satu img {
+    width: 300px;
+}
+
+.satu h3 {
+    color: rgb(69, 69, 222);
+}
+
+.dua {
+    width: 300px;
+    float: inline-start;
+    border: 1px solid black;
+    height: 430px;
+    margin-left: 120px;
+}
+
+.dua img {
+    width: 300px;
+    height: 230px;
+}
+
+.dua h3 {
+    color: rgb(69, 69, 222);
+}
+
+.tiga {
+    width: 300px;
+    float: inline-end;
+    border: 1px solid black;
+    height: 430px;
+    margin-right: 50px;
+}
+
+.tiga img {
+    width: 300px;
+    height: 230px;
+}
+
+.tiga h3 {
+    color: rgb(69, 69, 222);
+}
+
+footer {
+    margin-top: 600px;
+    margin-bottom: 50px;
+    text-align: center;
+}

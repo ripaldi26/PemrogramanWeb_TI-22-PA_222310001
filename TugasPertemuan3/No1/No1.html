@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    h1 {
+        margin-top: 20px;
+    }
+</style>
+
+<body>
+    <h1>Formulir Mahasiswa</h1>
+    <form id="mahasiswaForm">
+        <label for="nim">NIM:</label><br>
+        <input type="text" id="nim" name="nim"><br><br>
+    
+        <label for="nama">Nama:</label><br>
+        <input type="text" id="nama" name="nama"><br><br>
+    
+        <label for="jenisKelamin">Jenis Kelamin:</label><br>
+        <select id="jenisKelamin" name="jenisKelamin">
+            <option value="Laki-laki">Laki-laki</option>
+            <option value="Perempuan">Perempuan</option>
+        </select><br><br>
+    
+        <label for="agama">Agama:</label><br>
+        <input type="text" id="agama" name="agama"><br><br>
+    
+        <label for="status">Status:</label><br>
+        <select id="status" name="status">
+            <option value="Aktif">Aktif</option>
+            <option value="Non-Aktif">Non-Aktif</option>
+        </select><br><br>
+    
+        <label for="jurusan">Jurusan:</label><br>
+        <input type="text" id="jurusan" name="jurusan"><br><br>
+    
+        <label for="komentar">Komentar:</label><br>
+        <textarea id="komentar" name="komentar" rows="4" cols="50"></textarea><br><br>
+    
+        <button type="button" onclick="submitForm()">Kirim</button>
+    </form>
+    
+    <div id="result" style="display: none;">
+        <h2>Hasil Pengisian Formulir</h2>
+        <p id="hasilNim"></p>
+        <p id="hasilNama"></p>
+        <p id="hasilJenisKelamin"></p>
+        <p id="hasilAgama"></p>
+        <p id="hasilStatus"></p>
+        <p id="hasilJurusan"></p>
+        <p id="hasilKomentar"></p>
+    </div>
+    <script src="No1.js"></script>
+</body>
+
+</html>

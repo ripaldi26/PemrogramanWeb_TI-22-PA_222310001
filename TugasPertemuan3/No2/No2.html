@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Form Pemesanan Tiket Travel</h1>
+    <form id="tiketForm">
+        <label for="nama">Nama Pemesan:</label><br>
+        <input type="text" id="nama" name="nama"><br><br>
+
+        <label for="tujuan">Tujuan:</label><br>
+        <select id="tujuan" name="tujuan">
+            <option value="Jakarta">Jakarta</option>
+            <option value="Solo">Solo</option>
+            <option value="Surabaya">Surabaya</option>
+        </select><br><br>
+
+        <label for="kelas">Kelas:</label><br>
+        <select id="kelas" name="kelas">
+            <option value="Eksekutif">Eksekutif</option>
+            <option value="Bisnis">Bisnis</option>
+            <option value="Ekonomi">Ekonomi</option>
+        </select><br><br>
+
+        <label for="jumlah">Banyak Tiket:</label><br>
+        <input type="number" id="jumlah" name="jumlah" min="1"><br><br>
+
+        <label for="member">Status Member:</label><br>
+        <input type="radio" id="member" name="status_member" value="Member"> Member<br>
+        <input type="radio" id="non_member" name="status_member" value="Non-Member"> Non-Member<br><br>
+
+        <button type="button" onclick="hitungTotal()">Hitung Total</button>
+    </form>
+
+    <div id="result" style="display: none;">
+        <h2>Detail Pemesanan</h2>
+        <p id="detailNama"></p>
+        <p id="detailTujuan"></p>
+        <p id="detailKelas"></p>
+        <p id="detailJumlah"></p>
+        <p id="detailStatus"></p>
+        <h2>Tagihan</h2>
+        <p id="tagihanTiket"></p>
+        <p id="tagihanSubtotal"></p>
+        <p id="tagihanDiskon"></p>
+        <p id="totalBayar"></p>
+    </div>
+    <script src="No2.js"></script>
+</body>
+
+</html>

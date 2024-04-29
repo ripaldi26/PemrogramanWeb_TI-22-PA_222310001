@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Kalkulator Tabungan</h1>
+    <form id="calculatorForm">
+        <label for="saldo">Saldo Awal (Rp):</label><br>
+        <input type="number" id="saldo" name="saldo" min="0"><br><br>
+
+        <label for="bunga">Bunga (%) :</label><br>
+        <input type="number" id="bunga" name="bunga" min="0"><br><br>
+
+        <label for="waktu">Jangka Waktu (bulan):</label><br>
+        <input type="number" id="waktu" name="waktu" min="1"><br><br>
+
+        <button type="button" onclick="hitungSaldo()">Hitung</button>
+    </form>
+
+    <div id="result" style="display: none;">
+        <h2>Hasil Perhitungan</h2>
+        <div id="saldoResult"></div>
+    </div>
+    <script src="No4.js"></script>
+</body>
+
+</html>
